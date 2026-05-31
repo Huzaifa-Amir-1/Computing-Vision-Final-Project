@@ -122,14 +122,6 @@ Ideas for future work (see sidebar in the Streamlit app):
 - Data augmentation and more epochs with early stopping
 - Higher resolution (224×224) with a pretrained backbone
 
-## Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| `No module named 'tensorflow'` | Use Python 3.13 via `.venv`, not system Python 3.14 |
-| `Model not found` | Run `train.ipynb` or ensure `model/deepfake_model.h5` exists |
-| Slow first prediction | TensorFlow loads on first run; later predictions are faster |
-| `streamlit` not found | Run `.\setup.ps1` or install inside `.venv` |
 
 ## License
 
